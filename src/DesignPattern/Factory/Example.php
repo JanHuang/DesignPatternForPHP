@@ -8,6 +8,8 @@
  * Link: http://www.usource.cn
  */
 
+namespace DesignPattern\Factory;
+
 class Example 
 {
 
