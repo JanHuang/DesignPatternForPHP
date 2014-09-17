@@ -10,7 +10,13 @@
 
 namespace DesignPattern\Factory\Test;
 
+use DesignPattern\Factory\FordFactory;
+
 class FactoryTest extends \PHPUnit_Framework_TestCase
 {
-
+    public function testCar()
+    {
+        $fordFactory = new FordFactory();
+        $this->assertInstanceOf('ProductInterface', $fordFactory->create());
+    }
 } 
