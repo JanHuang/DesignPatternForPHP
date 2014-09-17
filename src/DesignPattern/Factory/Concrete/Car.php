@@ -8,7 +8,7 @@
  * Link: http://blog.segmentfault.com/janhuang
  */
 
-namespace DesignPattern\Factory;
+namespace DesignPattern\Factory\Concrete;
 
 use DesignPattern\Factory\Standard\ProductInterface;
 
