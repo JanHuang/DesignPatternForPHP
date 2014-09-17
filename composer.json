@@ -1,0 +1,25 @@
+{
+    "name": "JanHuang/design-pattern-for-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JanHuang",
+            "email": "384099566@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    }, 
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPattern\\": "src/DesignPattern/"
+        }
+    }
+}
